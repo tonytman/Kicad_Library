@@ -31,10 +31,10 @@
   (fp_line (start 2.35 1.75) (end -2.35 1.75) (layer "F.Fab") (width 0.1) (tstamp d7d39933-c323-4557-a0c9-588dce5d14ed))
   (fp_line (start 2.35 1.75) (end 2.35 -1.75) (layer "F.Fab") (width 0.1) (tstamp dcebc8a6-7650-4bb1-83d9-a6f18abbb9f4))
   (fp_line (start 1.3 -2.75) (end -1.3 -2.75) (layer "F.Fab") (width 0.1) (tstamp fcdb7d31-e687-4f72-b21c-f979bc89560c))
-  (pad "1" smd rect (at 2.575 -0.85 180) (size 1.45 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 20499ded-61e9-4192-a8ad-8c670773a2b9))
   (pad "1" smd rect (at -2.575 -0.85 180) (size 1.45 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6384f92e-1a61-4458-a503-2e2a4525387c))
-  (pad "2" smd rect (at 2.575 0.85 180) (size 1.45 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 086aa683-db96-4360-bdde-f507d1daac12))
   (pad "2" smd rect (at -2.575 0.85 180) (size 1.45 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5796b327-a4ef-4bfc-9bac-09dd00e56552))
+  (pad "3" smd rect (at 2.575 0.85 180) (size 1.45 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 086aa683-db96-4360-bdde-f507d1daac12))
+  (pad "4" smd rect (at 2.575 -0.85 180) (size 1.45 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 20499ded-61e9-4192-a8ad-8c670773a2b9))
   (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/Panasonic_EVQPUK_EVQPUB.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
