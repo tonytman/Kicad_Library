@@ -1,7 +1,7 @@
 (footprint "CastellatedPort_1.27mm_8p" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
-  (descr "Castellated port 1.27mm 9pin")
+  (descr "Castellated port 1.27mm 8pin")
   (tags "Castellated 1.27mm")
   (attr through_hole)
   (fp_text reference "REF**" (at 0 3 unlocked) (layer "F.SilkS")
