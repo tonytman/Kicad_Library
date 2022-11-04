@@ -6,11 +6,11 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 996f8c08-9bc0-437b-a0ba-f7e1721da2fa)
   )
-  (fp_text value "TipProbe_1.27mm_4x2p" (at 0 3.7 unlocked) (layer "F.Fab")
+  (fp_text value "TipProbe_1.27mm_4x2p" (at 0 3.7 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp afc7506d-c076-43c1-8ba6-ae375aee076b)
   )
-  (fp_text user "${REFERENCE}" (at 0 5.2 unlocked) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 0 5.2 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 18396275-54d4-4cd0-ba7e-efca5793458a)
   )
