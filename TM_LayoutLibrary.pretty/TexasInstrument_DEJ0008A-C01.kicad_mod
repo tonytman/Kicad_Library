@@ -2,15 +2,15 @@
   (layer "F.Cu")
   (tedit 0)
   (attr smd)
-  (fp_text reference "REF**" (at 0 2.6 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 2.6 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0a17450f-296c-4cdc-bb5a-ba63ea7d3206)
   )
-  (fp_text value "TexasInstrument_DEJ0008A-C01" (at 0 4.1 unlocked) (layer "F.Fab")
+  (fp_text value "TexasInstrument_DEJ0008A-C01" (at 0 4.1 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d5a73bb1-8c48-4c85-af84-1f1f3be1fe16)
   )
-  (fp_text user "${REFERENCE}" (at 0 5.6 unlocked) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 0 5.6 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e8e9e552-6b34-4afd-af39-7e7c9ac5b8d0)
   )
@@ -32,6 +32,6 @@
   (pad "5" smd roundrect (at 1.4 0.75) (size 1 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 0805af15-ff1a-4cc3-ae5a-19dcc1ba8568))
   (pad "6" smd roundrect (at 1.4 0.25) (size 1 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 74817d4f-36fe-401a-9159-978a871d20a9))
   (pad "7" smd roundrect (at 1.4 -0.25) (size 1 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 2b539a69-6c14-45cb-84f7-f70cf14122fa))
+  (pad "8" smd roundrect (at 0 0) (size 1.2 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 97168b6f-16ca-4864-b080-52959b5de709))
   (pad "8" smd roundrect (at 1.4 -0.75) (size 1 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp c1a39982-5580-4a66-9440-f6fa2d85c067))
-  (pad "9" smd roundrect (at 0 0) (size 1.2 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 97168b6f-16ca-4864-b080-52959b5de709))
 )
