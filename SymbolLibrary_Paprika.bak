@@ -1,12 +1,12 @@
 (kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "Sandwich_mu" (in_bom yes) (on_board yes)
+  (symbol "Paprika_mu" (in_bom yes) (on_board yes)
     (property "Reference" "S" (at 0 17.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Sandwich_mu" (at 0 -17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "TM_LayoutLibrary:Sandwich_mu" (at 0 -20.32 0)
+    (property "Footprint" "TM_LayoutLibrary:Paprika_mu" (at 0 -20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 0 0)
@@ -15,7 +15,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "Sandwich_mu_1_1"
+    (symbol "Paprika_mu_1_1"
       (polyline
         (pts
           (xy -2.54 15.24)
@@ -70,7 +70,7 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "Sandwich_mu_2_1"
+    (symbol "Paprika_mu_2_1"
       (polyline
         (pts
           (xy -2.54 15.24)
@@ -126,21 +126,21 @@
       )
     )
   )
-  (symbol "Sandwich_gamma" (extends "Sandwich_mu")
+  (symbol "Paprika_gamma" (extends "Paprika_mu")
     (property "Reference" "S" (at 0 17.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Sandwich_mu" (at 0 -17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "TM_LayoutLibrary:Sandwich_gamma" (at 0 -20.32 0)
+    (property "Footprint" "TM_LayoutLibrary:Paprika_gamma" (at 0 -20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "Sandwich_mu_jtag" (in_bom yes) (on_board yes)
+  (symbol "Paprika_mu_jtag" (in_bom yes) (on_board yes)
     (property "Reference" "S" (at 0 17.78 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -156,7 +156,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "Sandwich_mu_jtag_1_1"
+    (symbol "Paprika_mu_jtag_1_1"
       (polyline
         (pts
           (xy -2.54 15.24)
@@ -211,7 +211,7 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "Sandwich_mu_jtag_2_1"
+    (symbol "Paprika_mu_jtag_2_1"
       (polyline
         (pts
           (xy -2.54 15.24)
@@ -257,16 +257,16 @@
         (name "PWR_AUX" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin bidirectional line (at -5.08 -10.16 0) (length 2.54)
+      (pin passive line (at -5.08 -10.16 0) (length 2.54)
         (name "PWR_GND" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin bidirectional line (at -5.08 -12.7 0) (length 2.54)
+      (pin power_out line (at -5.08 -12.7 0) (length 2.54)
         (name "PWR_3.0V" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "Sandwich_mu_jtag_3_1"
+    (symbol "Paprika_mu_jtag_3_1"
       (polyline
         (pts
           (xy -2.54 12.7)
@@ -304,7 +304,7 @@
         (name "" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -5.08 -7.62 0) (length 2.54)
+      (pin power_out line (at -5.08 -7.62 0) (length 2.54)
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
