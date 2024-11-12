@@ -1,0 +1,17 @@
+(footprint "Standard_mount_3mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 3 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ef565e09-b32a-4019-ae16-73725bed3ec2)
+  )
+  (fp_text value "Mount_3mm" (at 0 4.5 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 36d33d57-7f26-49ab-8456-88dab3167600)
+  )
+  (fp_text user "${REFERENCE}" (at 0 6 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 60238b26-9613-472f-bdff-9edc9ce9e9f7)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 3) (layers "F&B.Cu" "*.Mask") (tstamp 69575bef-4d61-4b66-8116-ded471c5dfdc))
+)

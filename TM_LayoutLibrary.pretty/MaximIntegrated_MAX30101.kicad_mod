@@ -1,15 +1,15 @@
 (footprint "MaximIntegrated_MAX30101" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
-  (fp_text reference "REF**" (at 0 4.1 unlocked) (layer "F.SilkS") hide
+  (fp_text reference "REF**" (at 0 4.3 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 495b554a-0b5d-44d5-a580-e6c8deda2f51)
   )
-  (fp_text value "MaximIntegrated_MAX30101" (at 0 5.5 unlocked) (layer "F.Fab") hide
+  (fp_text value "MaximIntegrated_MAX30101" (at 0 5.7 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8017ccc4-53b0-4f2e-aede-d02d18c67c91)
   )
-  (fp_text user "${REFERENCE}" (at 0 7 unlocked) (layer "F.Fab") hide
+  (fp_text user "${REFERENCE}" (at 0 7.2 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 046da16c-de82-4f5d-843e-b6b64e2d649c)
   )
@@ -33,6 +33,8 @@
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp dabe5983-9c3d-4f1b-acd6-9f2e2a9389a8))
   (fp_line (start 1.7 2.9) (end 2.2 2.9)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp bdfe42c3-776c-4d88-9c9b-a45721763e8d))
+  (fp_rect (start -1.7 -2.8) (end 1.7 2.8)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 8aa3d494-8c3f-4967-b602-9aa0b46b8179))
   (fp_rect (start -1.65 -2.8) (end 1.65 2.8)
     (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 986de6b7-575d-4792-a146-448d70edfef4))
   (fp_rect (start -0.985 -2.197) (end 0.985 0.553)

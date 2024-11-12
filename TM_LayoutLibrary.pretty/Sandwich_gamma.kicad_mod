@@ -1,7 +1,7 @@
-(footprint "Paprika_gamma" (version 20221018) (generator pcbnew)
+(footprint "Sandwich_gamma" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
-  (fp_text reference "REF**" (at 0 14 unlocked) (layer "F.SilkS") hide
+  (fp_text reference "REF**" (at 0.1 1 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d91aaf71-d0fa-45e0-89c7-9981b836ecac)
   )
