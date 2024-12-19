@@ -1,0 +1,188 @@
+(footprint "Header-MI_2x2_2.54"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Male Header with I shape for 2x10 layout with 2.54mm separation")
+	(property "Reference" "REF**"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "45875dba-02a2-43bc-8693-0eee8eb3f9f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Header-MI_2x2_2.54"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "15e3bbf8-7e61-459c-94ef-c72eb996bfcb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 5.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4cabf4c2-1254-425b-b44e-88aaf52aa330")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 5.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "178450ff-8aec-4e89-9627-e1e493d3fc19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Male Header with I shape for 2x10 layout with 2.54mm separation"
+		(at 0 10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53cb19e4-c6dc-4f59-b540-8bfd20f86348")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.7 2.2)
+		(end -2.7 2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "9dcdb1bf-1b51-48dd-9df6-ed3999996ceb")
+	)
+	(fp_line
+		(start -2.7 2.7)
+		(end -2.2 2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "a4ce3f48-fb1c-4c92-8141-a4829c3fde50")
+	)
+	(fp_rect
+		(start -2.5 -2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "daab91de-8a1f-4010-9766-d7ccde029726")
+	)
+	(fp_line
+		(start -2.7 2.7)
+		(end -2.7 2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5572b77e-74e0-4d5b-81bf-81d0f8c303b2")
+	)
+	(fp_line
+		(start -2.7 2.7)
+		(end -2.2 2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5aef3d2e-587f-4df7-8e2c-ae9741900274")
+	)
+	(fp_rect
+		(start -2.5 -2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "aaab3d2c-5a4c-4ba7-89db-29cd265e2396")
+	)
+	(fp_rect
+		(start -2.5 2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "185465e0-e0eb-4b30-8cfe-d81ab99dad11")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5705c2fe-6cce-423b-bd33-b137e6855366")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 1.27)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "456edb2d-79a9-4f98-ba1f-d9a33423a2fb")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 -1.27)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0ba5be5d-eae3-43ef-9319-b0b363cd5e07")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 1.27)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "82e786a9-b085-44d5-98f5-c2768ecba1e7")
+	)
+	(pad "4" thru_hole circle
+		(at 1.27 -1.27)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f9c83b32-0873-4f9f-90ba-e0464aa90a75")
+	)
+)

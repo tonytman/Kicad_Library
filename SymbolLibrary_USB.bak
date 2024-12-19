@@ -1746,7 +1746,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 15.24 13.97 180)
 				(length 5.08)
 				(name "CC"
@@ -1767,7 +1767,7 @@
 			(pin bidirectional line
 				(at 15.24 17.78 180)
 				(length 5.08)
-				(name "D+"
+				(name "cJTAG_TMS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1781,12 +1781,11 @@
 						)
 					)
 				)
-				(alternate "cJTAG_TMS" input line)
 			)
-			(pin bidirectional line
+			(pin bidirectional clock
 				(at 15.24 20.32 180)
 				(length 5.08)
-				(name "D-"
+				(name "cJTAG_TCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1800,12 +1799,12 @@
 						)
 					)
 				)
-				(alternate "cJTAG_TCK" input clock)
+				(alternate "cJTAG_TCK" bidirectional clock)
 			)
-			(pin no_connect line
+			(pin bidirectional line
 				(at 15.24 7.62 180)
 				(length 5.08)
-				(name "SBU1"
+				(name "cJTAG_nRST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1819,7 +1818,6 @@
 						)
 					)
 				)
-				(alternate "cJTAG_nRST" bidirectional line)
 			)
 			(pin passive line
 				(at -15.24 -7.62 0)
@@ -1965,7 +1963,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 15.24 11.43 180)
 				(length 5.08)
 				(name "VCONN"
@@ -3855,7 +3853,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 15.24 13.97 180)
 				(length 5.08)
 				(name "CC"
@@ -3876,7 +3874,7 @@
 			(pin bidirectional line
 				(at 15.24 17.78 180)
 				(length 5.08)
-				(name "D+"
+				(name "cJTAG_TMS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3890,12 +3888,11 @@
 						)
 					)
 				)
-				(alternate "cJTAG_TMS" input line)
 			)
-			(pin bidirectional line
+			(pin bidirectional clock
 				(at 15.24 20.32 180)
 				(length 5.08)
-				(name "D-"
+				(name "cJTAG_TCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3909,12 +3906,11 @@
 						)
 					)
 				)
-				(alternate "cJTAG_TCK" input clock)
 			)
-			(pin no_connect line
+			(pin bidirectional line
 				(at 15.24 7.62 180)
 				(length 5.08)
-				(name "SBU1"
+				(name "cJTAG_nRST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4074,7 +4070,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 15.24 11.43 180)
 				(length 5.08)
 				(name "VCONN"
@@ -4095,7 +4091,7 @@
 			(pin bidirectional line
 				(at 15.24 22.86 180)
 				(length 5.08)
-				(name "D+"
+				(name "cJTAG_TMS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4109,12 +4105,11 @@
 						)
 					)
 				)
-				(alternate "cJTAG_TMS" input line)
 			)
-			(pin bidirectional line
+			(pin bidirectional clock
 				(at 15.24 25.4 180)
 				(length 5.08)
-				(name "D-"
+				(name "cJTAG_TCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4128,7 +4123,6 @@
 						)
 					)
 				)
-				(alternate "cJTAG_TCK" input clock)
 			)
 			(pin no_connect line
 				(at 15.24 5.08 180)

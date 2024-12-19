@@ -1,4 +1,4 @@
-(footprint "fHeader-I_2x10_2.54"
+(footprint "Header-FI_2x10_2.54"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "fHeader-L_2x10_2.54"
+	(property "Value" "Header-FL_2x10_2.54"
 		(at 0 6 0)
 		(unlocked yes)
 		(layer "F.Fab")
