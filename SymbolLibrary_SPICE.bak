@@ -2,10 +2,720 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "TypeC_Plug"
-		(pin_names
-			(offset 1.016)
+	(symbol "SPICE_Extension-D_FPC"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "P"
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
+		(property "Value" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TM_LayoutLibrary:Dealon_FC05-S08DCT"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SPICE extension sink for FPC connector"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SPICE_Extension-D_FPC_1_1"
+			(rectangle
+				(start -5.08 12.7)
+				(end 5.08 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 -10.16 180)
+				(length 2.54)
+				(name "I2C_SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output clock
+				(at 7.62 -7.62 180)
+				(length 2.54)
+				(name "I2C_SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 -5.08 180)
+				(length 2.54)
+				(name "GPIO_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "GPIO_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "GPIO_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 5.08 180)
+				(length 2.54)
+				(name "GPIO_0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 7.62 180)
+				(length 2.54)
+				(name "PWR_GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 7.62 10.16 180)
+				(length 2.54)
+				(name "PWR_3V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SPICE_Extension-U_FPC"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "P"
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TM_LayoutLibrary:Dealon_FC05-S08DCT"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SPICE extension source for FPC connector"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SPICE_Extension-U_FPC_1_1"
+			(rectangle
+				(start 5.08 12.7)
+				(end -5.08 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -7.62 10.16 0)
+				(length 2.54)
+				(name "PWR_3V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 7.62 0)
+				(length 2.54)
+				(name "PWR_GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 5.08 0)
+				(length 2.54)
+				(name "GPIO_0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "GPIO_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "GPIO_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 -5.08 0)
+				(length 2.54)
+				(name "GPIO_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at -7.62 -7.62 0)
+				(length 2.54)
+				(name "I2C_SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 -10.16 0)
+				(length 2.54)
+				(name "I2C_SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SPICE_Label"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Graphic:SPICE_Label"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Major" "1"
+			(at 3.81 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minor" "1"
+			(at 1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "*Type"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SPICE_Label_1_1"
+			(rectangle
+				(start -5.08 2.54)
+				(end 5.08 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 255 255 0)
+				)
+			)
+			(text "."
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SPICE_cJTAG-D_FPC"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "P"
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TM_LayoutLibrary:Dealon_FC05-S08DCT"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SPICE cJTAG sink for FPC connector"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SPICE_cJTAG-D_FPC_1_1"
+			(rectangle
+				(start -5.08 12.7)
+				(end 5.08 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin no_connect line
+				(at 7.62 -10.16 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect clock
+				(at 7.62 -7.62 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 -5.08 180)
+				(length 2.54)
+				(name "cJTAG_TMS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output clock
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "cJTAG_TCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "cJTAG_RST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 7.62 5.08 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 7.62 180)
+				(length 2.54)
+				(name "PWR_GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 7.62 10.16 180)
+				(length 2.54)
+				(name "PWR_3V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SPICE_cJTAG-D_USB-C"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -18,7 +728,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 35.56 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26,7 +736,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 3.81 2.54 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,8 +753,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB Type-C Plug connector"
-			(at 0 -38.1 0)
+		(property "Description" "SPICE cJTAG sink for FPC connector"
+			(at 0.254 -38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,7 +762,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "USBC"
+		(property "ki_keywords" "USBC, cJTAG"
 			(at 0 0 0)
 			(effects
 				(font
@@ -61,16 +771,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "USB*C*Plug*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "TypeC_Plug_0_1"
+		(symbol "SPICE_cJTAG-D_USB-C_0_1"
 			(rectangle
 				(start -10.16 33.02)
 				(end 10.16 -33.02)
@@ -190,7 +891,7 @@
 				)
 			)
 		)
-		(symbol "TypeC_Plug_1_1"
+		(symbol "SPICE_cJTAG-D_USB-C_1_1"
 			(circle
 				(center -1.27 25.273)
 				(radius 0.635)
@@ -290,7 +991,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 15.24 -20.32 180)
 				(length 5.08)
 				(name "RX2-"
@@ -308,7 +1009,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 15.24 -22.86 180)
 				(length 5.08)
 				(name "RX2+"
@@ -344,7 +1045,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 15.24 -15.24 180)
 				(length 5.08)
 				(name "TX1+"
@@ -362,7 +1063,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 15.24 -12.7 180)
 				(length 5.08)
 				(name "TX1-"
@@ -380,7 +1081,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at -15.24 -2.54 0)
 				(length 5.08)
 				(name "VBUS"
@@ -398,7 +1099,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 15.24 13.97 180)
 				(length 5.08)
 				(name "CC"
@@ -419,7 +1120,7 @@
 			(pin bidirectional line
 				(at 15.24 17.78 180)
 				(length 5.08)
-				(name "D+"
+				(name "cJTAG_TMS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -434,10 +1135,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output clock
 				(at 15.24 20.32 180)
 				(length 5.08)
-				(name "D-"
+				(name "cJTAG_TCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -451,11 +1152,12 @@
 						)
 					)
 				)
+				(alternate "cJTAG_TCK" bidirectional clock)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 15.24 7.62 180)
 				(length 5.08)
-				(name "SBU1"
+				(name "cJTAG_nRST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -470,7 +1172,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at -15.24 -7.62 0)
 				(length 5.08)
 				(name "VBUS"
@@ -506,7 +1208,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 15.24 -5.08 180)
 				(length 5.08)
 				(name "RX1-"
@@ -524,7 +1226,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 15.24 -7.62 180)
 				(length 5.08)
 				(name "RX1+"
@@ -560,7 +1262,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 15.24 -30.48 180)
 				(length 5.08)
 				(name "TX2+"
@@ -578,7 +1280,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 15.24 -27.94 180)
 				(length 5.08)
 				(name "TX2-"
@@ -596,7 +1298,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at -15.24 -5.08 0)
 				(length 5.08)
 				(name "VBUS"
@@ -614,7 +1316,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 15.24 11.43 180)
 				(length 5.08)
 				(name "VCONN"
@@ -632,10 +1334,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 15.24 5.08 180)
 				(length 5.08)
-				(name "SBU2"
+				(name "cJTAG_nRST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -650,7 +1352,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at -15.24 -10.16 0)
 				(length 5.08)
 				(name "VBUS"
@@ -688,14 +1390,217 @@
 			)
 		)
 	)
-	(symbol "TypeC_Receptable"
-		(pin_names
-			(offset 1.016)
-		)
+	(symbol "SPICE_cJTAG-U_FPC"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "R"
+		(property "Reference" "P"
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TM_LayoutLibrary:Dealon_FC05-S08DCT"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SPICE cJTAG source for FPC connector"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SPICE_cJTAG-U_FPC_1_1"
+			(rectangle
+				(start 5.08 12.7)
+				(end -5.08 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -7.62 10.16 0)
+				(length 2.54)
+				(name "PWR_3V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 7.62 0)
+				(length 2.54)
+				(name "PWR_GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -7.62 5.08 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "cJTAG_RST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "cJTAG_TCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 -5.08 0)
+				(length 2.54)
+				(name "cJTAG_TMS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -7.62 -7.62 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -7.62 -10.16 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SPICE_cJTAG-U_USB-C"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "P"
 			(at 0 -35.56 0)
 			(effects
 				(font
@@ -704,7 +1609,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 35.56 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -712,7 +1617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 3.81 2.54 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -729,8 +1634,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB Type-C Receptable connector"
-			(at 0 -38.1 0)
+		(property "Description" "SPICE cJTAG source for USB-C"
+			(at 0.254 -38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -738,7 +1643,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "USBC"
+		(property "ki_keywords" "USBC, cJTAG"
 			(at 0 0 0)
 			(effects
 				(font
@@ -747,16 +1652,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "USB*C*Plug*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "TypeC_Receptable_0_1"
+		(symbol "SPICE_cJTAG-U_USB-C_0_1"
 			(rectangle
 				(start -10.16 33.02)
 				(end 10.16 -33.02)
@@ -876,7 +1772,7 @@
 				)
 			)
 		)
-		(symbol "TypeC_Receptable_1_1"
+		(symbol "SPICE_cJTAG-U_USB-C_1_1"
 			(circle
 				(center -1.27 25.273)
 				(radius 0.635)
@@ -976,7 +1872,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 15.24 -20.32 180)
 				(length 5.08)
 				(name "RX2-"
@@ -994,7 +1890,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 15.24 -22.86 180)
 				(length 5.08)
 				(name "RX2+"
@@ -1030,7 +1926,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 15.24 -15.24 180)
 				(length 5.08)
 				(name "TX1+"
@@ -1048,7 +1944,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 15.24 -12.7 180)
 				(length 5.08)
 				(name "TX1-"
@@ -1066,7 +1962,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at -15.24 -2.54 0)
 				(length 5.08)
 				(name "VBUS"
@@ -1084,10 +1980,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 15.24 13.97 180)
 				(length 5.08)
-				(name "CC1"
+				(name "CC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1105,7 +2001,7 @@
 			(pin bidirectional line
 				(at 15.24 17.78 180)
 				(length 5.08)
-				(name "D+"
+				(name "cJTAG_TMS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1120,10 +2016,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output clock
 				(at 15.24 20.32 180)
 				(length 5.08)
-				(name "D-"
+				(name "cJTAG_TCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1137,11 +2033,12 @@
 						)
 					)
 				)
+				(alternate "cJTAG_TCK" bidirectional clock)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 15.24 7.62 180)
 				(length 5.08)
-				(name "SBU1"
+				(name "cJTAG_nRST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1156,7 +2053,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at -15.24 -7.62 0)
 				(length 5.08)
 				(name "VBUS"
@@ -1192,7 +2089,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 15.24 -5.08 180)
 				(length 5.08)
 				(name "RX1-"
@@ -1210,7 +2107,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 15.24 -7.62 180)
 				(length 5.08)
 				(name "RX1+"
@@ -1246,7 +2143,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 15.24 -30.48 180)
 				(length 5.08)
 				(name "TX2+"
@@ -1264,7 +2161,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 15.24 -27.94 180)
 				(length 5.08)
 				(name "TX2-"
@@ -1282,7 +2179,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at -15.24 -5.08 0)
 				(length 5.08)
 				(name "VBUS"
@@ -1300,10 +2197,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 15.24 11.43 180)
 				(length 5.08)
-				(name "CC2"
+				(name "VCONN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1318,46 +2215,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 15.24 22.86 180)
-				(length 5.08)
-				(name "D+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 25.4 180)
-				(length 5.08)
-				(name "D-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
+			(pin output line
 				(at 15.24 5.08 180)
 				(length 5.08)
-				(name "SBU2"
+				(name "cJTAG_nRST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1372,7 +2233,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at -15.24 -10.16 0)
 				(length 5.08)
 				(name "VBUS"

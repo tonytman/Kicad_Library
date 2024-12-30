@@ -1925,7 +1925,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 -15.24 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1933,7 +1933,7 @@
 			)
 		)
 		(property "Value" "BQ25170_DSGR"
-			(at 0 -12.7 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +1941,7 @@
 			)
 		)
 		(property "Footprint" "TM_LayoutLibrary:TexasInstrument_DSG0008A"
-			(at 0 -10.16 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1969,8 +1969,8 @@
 		)
 		(symbol "BQ25170_DSGR_0_1"
 			(rectangle
-				(start -5.08 7.62)
-				(end 5.08 -7.62)
+				(start -7.62 7.62)
+				(end 7.62 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -1982,7 +1982,7 @@
 		)
 		(symbol "BQ25170_DSGR_1_1"
 			(pin power_in line
-				(at -7.62 5.08 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "IN"
 					(effects
@@ -2000,7 +2000,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 2.54 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "ISET"
 					(effects
@@ -2018,7 +2018,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -2.54 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "TS"
 					(effects
@@ -2036,7 +2036,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -5.08 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2054,7 +2054,7 @@
 				)
 			)
 			(pin output line
-				(at 7.62 -5.08 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "STAT"
 					(effects
@@ -2072,7 +2072,7 @@
 				)
 			)
 			(pin output line
-				(at 7.62 -2.54 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "~{PG}"
 					(effects
@@ -2090,7 +2090,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 2.54 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "VSET"
 					(effects
@@ -2108,7 +2108,7 @@
 				)
 			)
 			(pin power_out line
-				(at 7.62 5.08 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -3057,6 +3057,238 @@
 			)
 		)
 	)
+	(symbol "BQ27621-G1_YZFR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BQ27621-G1"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TexasInstrument:TexasInstrument_YZF0009"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "System-Side Fuel Gauge With Dynamic Voltage Correlation "
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "BatteryGauge"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "BQ27621-G1_YZFR_1_1"
+			(rectangle
+				(start -7.62 10.16)
+				(end 7.62 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 -7.62 180)
+				(length 2.54)
+				(name "IO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 5.08 180)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at 10.16 7.62 180)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(name "INS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -5.08 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -7.62 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 5.08 0)
+				(length 2.54)
+				(name "BAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 7.62 0)
+				(length 2.54)
+				(name "BAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "CC2652P_SIP"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3613,9 +3845,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 50.8 180)
+				(at 17.78 48.26 180)
 				(length 2.54)
-				(name "JTAG_TMSC"
+				(name "cJTAG_TMS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3630,10 +3862,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 17.78 48.26 180)
+			(pin input clock
+				(at 17.78 50.8 180)
 				(length 2.54)
-				(name "JTAG_TCKC"
+				(name "cJTAG_TCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8847,7 +9079,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 10.16 -10.16 180)
 				(length 2.54)
 				(name "5V"
@@ -9068,8 +9300,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 -20.32 0)
+		(property "Footprint" "Standard:fHeader-L_2x10_2.54"
+			(at 0 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9087,7 +9319,7 @@
 			)
 		)
 		(property "Description" "Female header (CIS) for cJTAG debug interface on XDS110"
-			(at 0 -22.86 0)
+			(at 0 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9115,7 +9347,15 @@
 					)
 				)
 			)
-			(pin output line
+			(text "Validate before changing the layout\n"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin input line
 				(at -10.16 12.7 0)
 				(length 2.54)
 				(name "TDI"
@@ -9151,7 +9391,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "RXD"
@@ -9187,7 +9427,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "TXD"
@@ -9223,7 +9463,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "3V3"
@@ -9349,7 +9589,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -10.16 10.16 0)
 				(length 2.54)
 				(name "TDO"
@@ -9385,7 +9625,7 @@
 					)
 				)
 			)
-			(pin input clock
+			(pin output clock
 				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "TCK"
@@ -9421,7 +9661,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "TMS"
@@ -9457,7 +9697,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "nRST"
