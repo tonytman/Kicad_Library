@@ -698,7 +698,7 @@
 			(pin power_out line
 				(at 7.62 10.16 180)
 				(length 2.54)
-				(name "PWR_3V"
+				(name "PWR_5V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2208,6 +2208,42 @@
 					)
 				)
 				(number "B5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 22.86 180)
+				(length 5.08)
+				(name "cJTAG_TMS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 25.4 180)
+				(length 5.08)
+				(name "cJTAG_TCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B7"
 					(effects
 						(font
 							(size 1.27 1.27)
