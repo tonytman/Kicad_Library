@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 -20.32 0)
+			(at 0 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22,8 +22,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "Standard:StdPackage_TQFN_5x5x0.75-24"
+			(at 0 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,16 @@
 			)
 		)
 		(property "Description" "Low Cost 5W wireless power receiver"
-			(at 0 -22.86 0)
+			(at 0 -30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Qi"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,8 +60,8 @@
 		)
 		(symbol "KTE7200-TQFN_1_1"
 			(rectangle
-				(start -7.62 17.78)
-				(end 7.62 -17.78)
+				(start -10.16 27.94)
+				(end 10.16 -27.94)
 				(stroke
 					(width 0)
 					(type default)
@@ -61,17 +70,269 @@
 					(type background)
 				)
 			)
-			(pin input line
-				(at -10.16 -15.24 0)
+			(pin bidirectional line
+				(at -12.7 7.62 0)
 				(length 2.54)
-				(name ""
+				(name "CMA2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -15.24 180)
+				(length 2.54)
+				(name "GPIO4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -20.32 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 20.32 0)
+				(length 2.54)
+				(name "AC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 22.86 0)
+				(length 2.54)
+				(name "BOOST1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "VRECT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 10.16 180)
+				(length 2.54)
+				(name "VSYS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 12.7 -22.86 180)
+				(length 2.54)
+				(name "RSVD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -5.08 180)
+				(length 2.54)
+				(name "GPIO0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 17.78 0)
+				(length 2.54)
+				(name "CMA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -10.16 180)
+				(length 2.54)
+				(name "GPIO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -7.62 0)
+				(length 2.54)
+				(name "PWR_1V8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 15.24 180)
+				(length 2.54)
+				(name "~{INT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 22.86 180)
+				(length 2.54)
+				(name "I2C_SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at 12.7 25.4 180)
+				(length 2.54)
+				(name "I2C_SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -80,16 +341,16 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -12.7 0)
+				(at 12.7 17.78 180)
 				(length 2.54)
-				(name ""
+				(name "~{EN}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -97,17 +358,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 -10.16 0)
+			(pin bidirectional line
+				(at 12.7 -7.62 180)
 				(length 2.54)
-				(name ""
+				(name "GPIO1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -115,17 +376,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 -7.62 0)
+			(pin passive line
+				(at -12.7 -22.86 0)
 				(length 2.54)
-				(name ""
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "25"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -133,17 +394,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 -5.08 0)
+			(pin no_connect line
+				(at 12.7 -20.32 180)
 				(length 2.54)
-				(name ""
+				(name "RSVD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -151,17 +412,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 -2.54 0)
+			(pin passive line
+				(at -12.7 -5.08 0)
 				(length 2.54)
-				(name ""
+				(name "PWR_5V"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -169,17 +430,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 2.54 0)
+			(pin power_out line
+				(at 12.7 2.54 180)
 				(length 2.54)
-				(name ""
+				(name "VRECT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -187,17 +448,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 5.08 0)
+			(pin bidirectional line
+				(at -12.7 2.54 0)
 				(length 2.54)
-				(name ""
+				(name "BOOST2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -205,17 +466,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 7.62 0)
+			(pin bidirectional line
+				(at -12.7 5.08 0)
 				(length 2.54)
-				(name ""
+				(name "AC2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -223,17 +484,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 10.16 0)
+			(pin passive line
+				(at -12.7 -17.78 0)
 				(length 2.54)
-				(name ""
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -241,251 +502,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 12.7 0)
+			(pin bidirectional line
+				(at 12.7 -12.7 180)
 				(length 2.54)
-				(name ""
+				(name "GPIO3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 15.24 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 -15.24 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 -12.7 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 -10.16 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 -7.62 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 -5.08 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 -2.54 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 2.54 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 5.08 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 7.62 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 10.16 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 12.7 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 15.24 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
