@@ -8958,15 +8958,6 @@
 				(hide yes)
 			)
 		)
-		(property "DimControl" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "TPS923650_DSGR_1_1"
 			(rectangle
 				(start -7.62 10.16)
@@ -8997,7 +8988,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "VCC"
@@ -9051,26 +9042,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 10.16 7.62 180)
-				(length 2.54)
-				(name "SW"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at 10.16 2.54 180)
+				(at 10.16 7.62 180)
 				(length 2.54)
 				(name "CSP"
 					(effects
@@ -9088,7 +9061,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -2.54 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "CSN"
 					(effects
@@ -9098,6 +9071,24 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)

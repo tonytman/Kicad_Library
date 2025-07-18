@@ -5265,7 +5265,7 @@
 			)
 			(circle
 				(center 0 0)
-				(radius 0.635)
+				(radius 1.27)
 				(stroke
 					(width 0)
 					(type default)

@@ -8911,7 +8911,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TPS923650_DSGR"
+	(symbol "TPS923650_DRLR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8923,7 +8923,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS923650_DSGR"
+		(property "Value" "TPS923650_DRLR"
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -8931,8 +8931,8 @@
 				)
 			)
 		)
-		(property "Footprint" "TexasInstrument:TexasInstrument_DSG0008A"
-			(at 0 -17.78 0)
+		(property "Footprint" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8958,16 +8958,7 @@
 				(hide yes)
 			)
 		)
-		(property "DimControl" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "TPS923650_DSGR_1_1"
+		(symbol "TPS923650_DRLR_1_1"
 			(rectangle
 				(start -7.62 10.16)
 				(end 7.62 -10.16)
@@ -8979,8 +8970,26 @@
 					(type background)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -10.16 7.62 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -8997,26 +9006,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -10.16 5.08 0)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at -10.16 -2.54 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "DIM"
 					(effects
@@ -9033,17 +9024,17 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -10.16 -7.62 0)
 				(length 2.54)
-				(name "GND"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9070,7 +9061,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 2.54 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "CSP"
 					(effects
@@ -9088,7 +9079,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -2.54 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "CSN"
 					(effects

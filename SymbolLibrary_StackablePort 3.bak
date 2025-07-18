@@ -234,7 +234,6 @@
 						)
 					)
 				)
-				(alternate "5V" power_in line)
 			)
 			(pin power_out line
 				(at -12.7 27.94 0)
@@ -344,10 +343,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -12.7 -5.08 0)
 				(length 2.54)
-				(name "INT0"
+				(name "D2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -361,12 +360,11 @@
 						)
 					)
 				)
-				(alternate "D2" bidirectional line)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -12.7 -7.62 0)
 				(length 2.54)
-				(name "INT1"
+				(name "D3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -380,7 +378,6 @@
 						)
 					)
 				)
-				(alternate "D3" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -12.7 -10.16 0)

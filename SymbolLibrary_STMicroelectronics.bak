@@ -266,8 +266,8 @@
 				)
 			)
 		)
-		(property "Footprint" "KICAD_Library:STMicroelectronics_LGA-12"
-			(at 0 -20.32 0)
+		(property "Footprint" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -285,7 +285,7 @@
 			)
 		)
 		(property "Description" "ULP 3-axis accelerometer"
-			(at 0 -22.86 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)

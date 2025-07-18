@@ -761,7 +761,7 @@
 						)
 					)
 				)
-				(number "20"
+				(number "19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -808,10 +808,10 @@
 				)
 				(alternate "PD5" bidirectional line)
 			)
-			(pin output clock
+			(pin bidirectional line
 				(at 12.7 -33.02 180)
 				(length 2.54)
-				(name "I2C_SCL"
+				(name "I2C_SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -827,10 +827,10 @@
 				)
 				(alternate "PD0" bidirectional line)
 			)
-			(pin bidirectional line
+			(pin output clock
 				(at 12.7 -35.56 180)
 				(length 2.54)
-				(name "I2C_SDA"
+				(name "I2C_SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
