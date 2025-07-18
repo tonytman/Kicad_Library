@@ -1,0 +1,152 @@
+(footprint "Johanson_2450AT42B100"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "Antenna")
+	(property "Reference" "REF**"
+		(at 0 4.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2a97280f-0cbe-435b-9ff3-b39c45e5b746")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bd08d193-7642-4fca-8d63-5774c7505b5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fd7f09c-a52b-46cb-87d5-43a98eccc2db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87afdb25-f1c0-48ba-8985-8a749b3ffc48")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.5 -1)
+		(end 2.5 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "ccf92a34-2def-4898-8fcb-c42729b591af")
+	)
+	(fp_rect
+		(start 0.7 -0.1)
+		(end 1.8 0.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "ea88dcc9-21ff-4b9d-a93d-0b79da4bee40")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6c8c92c2-b507-4b3c-ab80-8e39381bcf56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -2.6 0)
+		(size 1 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "219456aa-4598-43dd-91d5-1c46fc87722d")
+	)
+	(pad "" smd roundrect
+		(at 0 -1)
+		(size 2.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b87850a3-a42e-40ab-a7e1-5a9b1c33aa46")
+	)
+	(pad "" smd roundrect
+		(at 0 0.7)
+		(size 2.8 0.7)
+		(layers "F.Cu" "F.Mask" "B.SilkS" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "11c645c4-2698-4317-97d6-9dfe6e6739e5")
+	)
+	(pad "1" smd roundrect
+		(at 2.6 0)
+		(size 1 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2cc41daf-67ba-4807-900e-00a7c85b047f")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "0753a5b5-5139-42c2-9155-acc9ce73992f")
+		(name "AntennaClearance")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy 4 2.5) (xy -4 2.5) (xy -4 -2) (xy 4 -2)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
