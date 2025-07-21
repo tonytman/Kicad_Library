@@ -4105,7 +4105,7 @@
 					(type outline)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -15.24 -2.54 0)
 				(length 5.08)
 				(name "VBUS"

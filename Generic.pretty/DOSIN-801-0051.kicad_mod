@@ -78,6 +78,16 @@
 		(layer "F.CrtYd")
 		(uuid "abe9b647-1b2b-4098-a60f-abb1aa500cce")
 	)
+	(fp_line
+		(start 11.3 -4)
+		(end 11.3 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3cafa288-89b4-463a-829d-7ac41b22a540")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 12 0)
 		(unlocked yes)

@@ -6722,7 +6722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TexasInstrument:DBV0005A"
+		(property "Footprint" "TexasInstrument:DEJ0008A-C01"
 			(at 0 -15.24 0)
 			(effects
 				(font
