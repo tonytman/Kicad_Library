@@ -1,0 +1,231 @@
+(footprint "Coil_Circular_r19.5mm_393nH"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Circular coil with 19.5mm diameter, 393nH nominal inductance")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f84b49c0-04e7-4ead-b40c-804a0adb7af3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ca16d38-3aeb-4fd9-9449-322f83ef34d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "107548be-1ea7-4fa8-a10b-ca54bd08733e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cf13125-9f39-47c9-987f-13307a876555")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Diameter" "19.5mm"
+		(at 0.1 -2 0)
+		(layer "F.SilkS")
+		(uuid "b3106a37-c4f2-4105-91a3-2acb8da1b37a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Inductance" "393nH"
+		(at 0 2 0)
+		(layer "F.SilkS")
+		(uuid "679d0aa1-f1f5-4bdf-978c-79ce1a18a312")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(zone_connect 2)
+	(attr through_hole exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(net_tie_pad_groups "1,2")
+	(fp_line
+		(start 6.5 0)
+		(end 4.9 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "2a726056-2d0d-460b-b23f-ef18f8cebd4f")
+	)
+	(fp_line
+		(start 10.5 -1.3)
+		(end 11.5 -1.3)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "833fc19f-c246-4c8d-9ec2-c3029f707413")
+	)
+	(fp_line
+		(start 10.5 0)
+		(end 10.5 -1.3)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "d5d56f6a-e04a-491f-9d28-a7e5f6595049")
+	)
+	(fp_arc
+		(start -9.5 0)
+		(mid 0 -9.5)
+		(end 9.5 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "8b8bee18-effb-415f-b3d6-efb0384e5e34")
+	)
+	(fp_arc
+		(start -8.5 0)
+		(mid 0 -8.5)
+		(end 8.5 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "d60b41c6-3b9e-47f9-8430-c01dceb5751e")
+	)
+	(fp_arc
+		(start -7.5 0)
+		(mid 0 -7.5)
+		(end 7.5 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "6938df8f-ff1a-4b4c-9092-48bd2397b67e")
+	)
+	(fp_arc
+		(start -6.5 0)
+		(mid 0 -6.5)
+		(end 6.5 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "b5b1aecb-7d67-4718-ad4a-0d798a3d6ea0")
+	)
+	(fp_arc
+		(start 7.5 0)
+		(mid 0.5 7)
+		(end -6.5 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "258c2296-b011-4885-82c1-68f700236b91")
+	)
+	(fp_arc
+		(start 8.5 0)
+		(mid 0.5 8)
+		(end -7.5 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "bcc4ca7b-1471-4ddf-a762-83062ae420cb")
+	)
+	(fp_arc
+		(start 9.5 0)
+		(mid 0.5 9)
+		(end -8.5 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "e567b0bc-0d9b-4376-8c3b-544d447f7e64")
+	)
+	(fp_arc
+		(start 10.5 0)
+		(mid 0.5 10)
+		(end -9.5 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "83b70db9-e5b8-44f2-8423-6e19be9cdb64")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1905c6a7-4b88-435e-a887-9c352ce33cda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 11.5 -1.3)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "395d4920-5e12-4407-83a7-538108dc4221")
+	)
+	(pad "2" thru_hole circle
+		(at 4.9 0)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "2912dc46-9df7-4eb3-9f07-c23af0825dd9")
+	)
+	(embedded_fonts no)
+)

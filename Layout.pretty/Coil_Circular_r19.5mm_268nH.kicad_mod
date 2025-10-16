@@ -1,0 +1,209 @@
+(footprint "Coil_Circular_r19.5mm_268nH"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Circular coil with 19.5mm diameter, 268nH nominal inductance")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "aefac93d-d49c-4db6-a485-25a53a8b7d1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2133f240-cc56-417d-aec1-f488db0418f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a80a296-b867-4f7f-8055-de1015670848")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78a71853-eebb-4de1-bfe0-c8722453c41e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Diameter" "19.5mm"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "40cacc1f-5838-41ba-9316-c7c8f4f49894")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Inductance" "268nH"
+		(at 0 2 0)
+		(layer "F.SilkS")
+		(uuid "6a510795-62e7-43e6-865b-f2213a927d2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(zone_connect 2)
+	(attr through_hole exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(net_tie_pad_groups "1,2")
+	(fp_line
+		(start 7.5 0)
+		(end 5.9 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "1b70d257-6952-43c7-86f7-0f784c0c9f85")
+	)
+	(fp_line
+		(start 10.5 -1.3)
+		(end 11.5 -1.3)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "1d042b23-6f31-4422-9891-cadf5dd97e96")
+	)
+	(fp_line
+		(start 10.5 0)
+		(end 10.5 -1.3)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "fad3dc43-87b8-4e15-aa45-098f7bf2b5e0")
+	)
+	(fp_arc
+		(start -9.5 0)
+		(mid 0 -9.5)
+		(end 9.5 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "56bbc02e-0729-4226-9945-b6a2273f9ead")
+	)
+	(fp_arc
+		(start -8.5 0)
+		(mid 0 -8.5)
+		(end 8.5 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "28c9ca5a-3a32-4a10-8547-5390e94ec7b2")
+	)
+	(fp_arc
+		(start -7.5 0)
+		(mid 0 -7.5)
+		(end 7.5 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "7b79bc96-c7c0-46e6-9ff5-0947662fc90a")
+	)
+	(fp_arc
+		(start 8.5 0)
+		(mid 0.5 8)
+		(end -7.5 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "555fbf48-a257-4789-9d32-b804926c3b47")
+	)
+	(fp_arc
+		(start 9.5 0)
+		(mid 0.5 9)
+		(end -8.5 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "30ae5893-77b6-4e39-9bfa-ab74f8671b2c")
+	)
+	(fp_arc
+		(start 10.5 0)
+		(mid 0.5 10)
+		(end -9.5 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "aa95dc53-40dc-493e-91d4-4a715b268adc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "78defb3b-1f60-4f4b-bc8c-199d92627dd6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 11.5 -1.3)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "11b5f74d-ea18-494f-bd3b-cecb010fb764")
+	)
+	(pad "2" thru_hole circle
+		(at 5.9 0)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "0dcfa8a3-2ee0-4e78-a261-581267a5ee4d")
+	)
+	(embedded_fonts no)
+)
