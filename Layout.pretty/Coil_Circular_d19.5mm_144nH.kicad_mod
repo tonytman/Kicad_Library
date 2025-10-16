@@ -1,4 +1,4 @@
-(footprint "Coil_Circular_r19.5mm_144nH"
+(footprint "Coil_Circular_d19.5mm_144nH"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")

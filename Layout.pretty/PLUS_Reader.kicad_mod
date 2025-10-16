@@ -1,4 +1,4 @@
-(footprint "PLUS_Pen"
+(footprint "PLUS_Reader"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -49 -8)
-		(end -48 -9)
+		(start -28 -8)
+		(end -27 -9)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -65,8 +65,8 @@
 		(uuid "b3f3e934-752a-4872-9f2e-6392276ed1e2")
 	)
 	(fp_line
-		(start -49 9)
-		(end -49 -8)
+		(start -28 9)
+		(end -28 -8)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -75,8 +75,8 @@
 		(uuid "361770a0-1d73-4b99-a3a8-e119167e5575")
 	)
 	(fp_line
-		(start -48 -9)
-		(end 9 -9)
+		(start -27 -9)
+		(end -10 -9)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -85,8 +85,8 @@
 		(uuid "83c2b289-44f9-480d-b441-6227e45e29ef")
 	)
 	(fp_line
-		(start 9 -9)
-		(end 9 9)
+		(start -10 -9)
+		(end -10 9)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -95,8 +95,8 @@
 		(uuid "7a48393e-de26-4b05-b796-04befe760c60")
 	)
 	(fp_line
-		(start 9 9)
-		(end -49 9)
+		(start -10 9)
+		(end -28 9)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -105,8 +105,8 @@
 		(uuid "ea6f444b-2c33-46d5-9e91-15053ef546aa")
 	)
 	(fp_line
-		(start 45.5 8.9)
-		(end 45.5 9.1)
+		(start 26.5 8.9)
+		(end 26.5 9.1)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -115,8 +115,8 @@
 		(uuid "dd1029b8-2783-4d5a-9adb-dbd8136a1c64")
 	)
 	(fp_rect
-		(start 10 -9)
-		(end 28 -4)
+		(start -9 -9)
+		(end 9 -4)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -126,8 +126,8 @@
 		(uuid "f572fa8b-aa1d-4bb3-a22f-342b2a5a4a35")
 	)
 	(fp_rect
-		(start 10 -4)
-		(end 28 -0.5)
+		(start -9 -4)
+		(end 9 -0.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -137,8 +137,8 @@
 		(uuid "9e71bf58-c22f-432f-b00a-6f9eae457ad8")
 	)
 	(fp_rect
-		(start 10 0.5)
-		(end 28 9)
+		(start -9 0.5)
+		(end 9 9)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -148,8 +148,8 @@
 		(uuid "d20a9621-775f-49fd-8f25-e67b27b8081a")
 	)
 	(fp_rect
-		(start 29 -9)
-		(end 49 -0.5)
+		(start 10 -9)
+		(end 30 -0.5)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -159,8 +159,8 @@
 		(uuid "70fdfcda-dc6f-4bb2-88b8-13a4d02ea76d")
 	)
 	(fp_rect
-		(start 29 0.5)
-		(end 49 9)
+		(start 10 0.5)
+		(end 30 9)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -170,8 +170,8 @@
 		(uuid "bff04139-0021-448c-83c6-63ca48d4c3d7")
 	)
 	(fp_rect
-		(start 34 4)
-		(end 36 6)
+		(start 15 4)
+		(end 17 6)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -181,8 +181,8 @@
 		(uuid "324af612-a6f1-471c-8e0f-e68c8ea96544")
 	)
 	(fp_rect
-		(start 42.5 -8.5)
-		(end 49.5 -1.5)
+		(start 23.5 -8.5)
+		(end 30.5 -1.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -192,18 +192,18 @@
 		(uuid "80460032-074c-4e52-8b90-09deec0436e5")
 	)
 	(fp_line
-		(start -50 -8.5)
-		(end -48.5 -10)
+		(start -29 -8.5)
+		(end -27.5 -10)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.05)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "04a2ad3e-4164-429a-8fcf-1352040f1d68")
 	)
 	(fp_line
-		(start -50 10)
-		(end -50 -8.5)
+		(start -29 10)
+		(end -29 -8.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -212,8 +212,8 @@
 		(uuid "5bbf6494-28a5-4241-99bb-e66ac6869be0")
 	)
 	(fp_line
-		(start -50 10)
-		(end 50 10)
+		(start -29 10)
+		(end 31 10)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -222,8 +222,8 @@
 		(uuid "899301a7-69bc-42a8-99ba-ab84979c2caf")
 	)
 	(fp_line
-		(start 50 -10)
-		(end -48.5 -10)
+		(start 31 -10)
+		(end -27.5 -10)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -232,8 +232,8 @@
 		(uuid "44ca0ffd-26eb-4441-a734-94cc90a857e5")
 	)
 	(fp_line
-		(start 50 -10)
-		(end 50 10)
+		(start 31 -10)
+		(end 31 10)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -242,7 +242,7 @@
 		(uuid "07ffe723-e6ed-4615-a078-6ccf0f4c7a0f")
 	)
 	(fp_text user "<POWER>"
-		(at 29.6 1.5 0)
+		(at 10.6 1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "921869aa-2000-47be-b4a3-9227174621ea")
@@ -255,7 +255,7 @@
 		)
 	)
 	(fp_text user "<TYPE>"
-		(at 29.6 -8 0)
+		(at 10.6 -8 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "95b15c65-8190-4d08-8383-19bd762ebe29")
@@ -268,7 +268,7 @@
 		)
 	)
 	(fp_text user "PLUS"
-		(at 19 -8 0)
+		(at 0 -8 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a5c49752-9341-4a44-92fa-546035f60a11")
@@ -281,7 +281,7 @@
 		)
 	)
 	(fp_text user "[X.XX]"
-		(at 27.5 -8 0)
+		(at 8.5 -8 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a893f729-35a1-4b60-890b-80142b3baf81")
@@ -294,7 +294,7 @@
 		)
 	)
 	(fp_text user "<PURPOSE>"
-		(at 10.5 1.5 0)
+		(at -8.5 1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "fea91942-4e9f-47a0-bab9-c117e6a027dc")
@@ -307,7 +307,7 @@
 		)
 	)
 	(fp_text user "JLCJLCJLC"
-		(at 49 4.75 0)
+		(at 30 4.75 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "56711336-c280-46c8-84b9-f666144cd792")

@@ -296,19 +296,6 @@
 		(layer "Edge.Cuts")
 		(uuid "07ffe723-e6ed-4615-a078-6ccf0f4c7a0f")
 	)
-	(fp_text user "USB-C"
-		(at 42 1.5 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "02cafe22-623f-4047-8822-5f77190f8e58")
-		(effects
-			(font
-				(size 0.8 1)
-				(thickness 0.1)
-			)
-			(justify right)
-		)
-	)
 	(fp_text user "<PURPOSE>"
 		(at 10.5 1.5 0)
 		(unlocked yes)
@@ -374,8 +361,8 @@
 			(justify left)
 		)
 	)
-	(fp_text user "Power"
-		(at 29.5 1.5 0)
+	(fp_text user "<POWER>"
+		(at 29.6 1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "921869aa-2000-47be-b4a3-9227174621ea")
@@ -388,23 +375,10 @@
 		)
 	)
 	(fp_text user "<TYPE>"
-		(at 29.5 -1.5 0)
+		(at 29.6 -8 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "95b15c65-8190-4d08-8383-19bd762ebe29")
-		(effects
-			(font
-				(size 0.8 1)
-				(thickness 0.1)
-			)
-			(justify left)
-		)
-	)
-	(fp_text user "I/O Port"
-		(at 29.5 -8 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "cd26988c-9e99-4b50-8993-310c4fd8e976")
 		(effects
 			(font
 				(size 0.8 1)
