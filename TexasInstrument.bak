@@ -6835,7 +6835,7 @@
 				)
 			)
 		)
-		(property "Value" "OPA991"
+		(property "Value" "LMC6081"
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -6843,7 +6843,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TexasInstrument:DBV0005A"
+		(property "Footprint" "TexasInstrument:D0008A"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -6861,7 +6861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low bias, Low offset; Low noise opamp"
+		(property "Description" "Precision CMOS OpAmp"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -6942,7 +6942,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6978,7 +6978,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6996,7 +6996,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7014,7 +7014,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
